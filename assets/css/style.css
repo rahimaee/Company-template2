@@ -1,0 +1,42 @@
+* {
+    margin: auto;
+}
+
+nav {
+
+}
+
+nav > ul {
+    list-style: none;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+
+}
+
+ul > li {
+    display: inline;
+    color: white;
+    font-size: 10px;
+}
+
+header {
+    background-color: rgba(138, 144, 255, 0.4);
+    position: fixed;
+    width: 100%;
+}
+
+section.banner {
+    background-image: url("../img/banner-bg.jpg");
+    height: 750px;
+    width: 100%;
+    background-repeat: round;
+}
+
+img.logo {
+    width: 75px;
+}
+
+div.headerLogo {
+    padding: 20px 0px 0px 0px;
+}
