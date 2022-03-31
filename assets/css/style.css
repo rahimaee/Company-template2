@@ -6,24 +6,33 @@ nav {
 
 }
 
+nav > ul.nav > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+nav > ul.nav > li > a:hover{
+    color: rgb(251, 52, 255);
+    transition: color 0.6s;
+}
 nav > ul {
     list-style: none;
     text-align: right;
     position: relative;
-    bottom: 10px;
-
+    bottom: 30px;
 }
 
 ul > li {
     display: inline;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 header {
-    background-color: rgba(138, 144, 255, 0.4);
+    background-color: rgba(138, 144, 255, 0.9);
     position: fixed;
     width: 100%;
+    padding: 0px 0px 20px 0px;
 }
 
 section.banner {
@@ -39,4 +48,56 @@ img.logo {
 
 div.headerLogo {
     padding: 20px 0px 0px 0px;
+}
+
+button.dropBtn {
+    background-color: white;
+    color: rgba(138, 144, 255, 0.9);
+    padding: 10px;
+    left: 3px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    position: relative;
+    bottom: 50px;
+
+}
+
+div.dropdown {
+    position: relative;
+    display: none;
+}
+
+div.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: rgba(138, 144, 255, 0.9);
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+    min-width: 160px;
+    top: 21px;
+}
+
+.dropdownContent a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+
+}
+
+.dropdownContent a:hover {
+    background-color: white;
+
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+
+}
+
+.dropdown:hover .dropBtn {
+    background-color: white;
+
 }
