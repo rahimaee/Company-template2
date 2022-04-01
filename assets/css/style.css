@@ -2,6 +2,10 @@
     margin: auto;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 nav {
 
 }
@@ -11,15 +15,17 @@ nav > ul.nav > li > a {
     color: white;
     font-size: 12px;
 }
-nav > ul.nav > li > a:hover{
+
+nav > ul.nav > li > a:hover {
     color: rgb(251, 52, 255);
     transition: color 0.6s;
 }
+
 nav > ul {
     list-style: none;
     text-align: right;
     position: relative;
-    bottom: 30px;
+    bottom: 35px;
 }
 
 ul > li {
@@ -99,5 +105,39 @@ div.dropdownContent {
 
 .dropdown:hover .dropBtn {
     background-color: white;
+
+}
+
+.bannerText {
+    color: white;
+    font-size: 60px;
+    padding: 190px 45% 0px 0px;
+    font-weight: 300;
+    width: 500px;
+}
+
+.bannerSubText {
+    padding: 190px 20% 0px 21%;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 185px;
+}
+
+.bannerBtn {
+    background-color: white;
+    border: none;
+    padding: 13px 21px;
+    margin-left: 21%;
+    position: relative;
+    bottom: 160px;
+    box-shadow: 0px 5px 8px 0px rgb(0, 0, 0, 0.2);
+}
+
+.bannerBtn:hover {
+    border: white solid 1px;
+    background-color: rgb(103, 103, 208);
+    color: white;
+    transition: color, background-color 0.6s;
 
 }
