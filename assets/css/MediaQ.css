@@ -83,8 +83,35 @@
     }
 
     div.bannerImg > img {
-        width: 50%;
-        padding: 100px 0px 0px 47%;
+        width: 45%;
+        padding: 100px 0px 0px 54%;
+    }
+
+    .bannerSubText {
+
+        font-size: 14px;
+        position: relative;
+        padding: 0px 0px 0px 5%;
+        bottom: 23%;
+    }
+
+    .bannerText {
+        padding: 15% 0px 0px 0px;
+        font-size: 17px;
+        font-weight: 300;
+        width: 45%;
+        position: relative;
+        bottom: 25%;
+        right: 23%;
+    }
+
+    .bannerBtn {
+
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 20%;
     }
 
 }
@@ -92,6 +119,40 @@
 @media only screen and (min-width: 500px) {
     ul > li {
         padding-right: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    ul > li {
+        padding-right: 5%;
+    }
+
+    .bannerSubText {
+
+        font-size: 14px;
+        position: relative;
+        padding: 0px 0px 0px 5%;
+        bottom: 28%;
+    }
+
+    .bannerText {
+        padding: 15% 0px 0px 0px;
+        font-size: 20px;
+        font-weight: 300;
+        width: 45%;
+        position: relative;
+        bottom: 30%;
+        right: 23%;
+    }
+
+    .bannerBtn {
+
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 24%;
     }
 
 }
@@ -127,7 +188,32 @@
         padding: 100px 0px 0px 43%;
     }
 
+    .bannerSubText {
 
+        font-size: 14px;
+        position: relative;
+        padding: 0px 0px 0px 5%;
+        bottom: 28%;
+    }
+
+    .bannerText {
+        padding: 15% 0px 0px 0px;
+        font-size: 20px;
+        font-weight: 300;
+        width: 45%;
+        position: relative;
+        bottom: 30%;
+        right: 23%;
+    }
+
+    .bannerBtn {
+
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 24%;
+    }
 
 
 }
