@@ -22,7 +22,7 @@
         width: 99%;
         padding: 50px 0px 0px 0px;
         position: relative;
-        top: 190px;
+        top: 220px;
     }
 
     header {
@@ -193,7 +193,7 @@
         font-size: 14px;
         position: relative;
         padding: 0px 0px 0px 5%;
-        bottom: 28%;
+        bottom: 38%;
     }
 
     .bannerText {
@@ -202,7 +202,7 @@
         font-weight: 300;
         width: 45%;
         position: relative;
-        bottom: 30%;
+        bottom: 40%;
         right: 23%;
     }
 
@@ -212,7 +212,7 @@
         padding: 10px 15px;
         margin-left: 4%;
         position: relative;
-        bottom: 24%;
+        bottom: 34%;
     }
 
 
@@ -248,8 +248,34 @@
     }
 
     div.bannerImg > img {
-        width: 59%;
-        padding: 100px 0px 0px 40%;
+        width: 45%;
+        padding: 100px 0px 0px 50%;
+    }
+    .bannerSubText {
+
+        font-size: 19px;
+        position: relative;
+        padding: 0px 0px 0px 5%;
+        bottom: 53%;
+    }
+
+    .bannerText {
+        padding: 15% 0px 0px 0px;
+        font-size: 23px;
+        font-weight: 300;
+        width: 45%;
+        position: relative;
+        bottom: 55%;
+        right: 23%;
+    }
+
+    .bannerBtn {
+
+        font-size: 14px;
+        padding: 13px 20px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 49%;
     }
 
 }
@@ -288,7 +314,33 @@
 
     div.bannerImg > img {
         width: 35%;
-        padding: 100px 0px 0px 63%;
+        padding: 100px 0px 0px 50%;
+    }
+    .bannerSubText {
+
+        font-size: 19px;
+        position: relative;
+        padding: 0px 0px 0px 15%;
+        bottom: 53%;
+    }
+
+    .bannerText {
+        padding: 15% 0px 0px 20%;
+        font-size: 23px;
+        font-weight: 300;
+        width: 45%;
+        position: relative;
+        bottom: 55%;
+        right: 23%;
+    }
+
+    .bannerBtn {
+
+        font-size: 14px;
+        padding: 13px 20px;
+        margin-left: 15%;
+        position: relative;
+        bottom: 49%;
     }
 
 
@@ -327,8 +379,34 @@
     }
 
     div.bannerImg > img {
-        width: 35%;
-        padding: 100px 0px 0px 45%;
+        width: 25%;
+        padding: 100px 0px 0px 58%;
+    }
+    .bannerSubText {
+
+        font-size: 19px;
+        position: relative;
+        padding: 0px 0px 0px 15%;
+        bottom:  52%;
+    }
+
+    .bannerText {
+        padding: 4% 0px 0px 38%;
+        font-size: 25px;
+        font-weight: 300;
+        width: 100%;
+        position: relative;
+        bottom: 55%;
+        right: 23%;
+    }
+
+    .bannerBtn {
+
+        font-size: 18px;
+        padding: 13px 20px;
+        margin-left: 15%;
+        position: relative;
+        bottom: 45%;
     }
 
 }
